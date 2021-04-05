@@ -71,12 +71,19 @@ main
   text-align: center;
 }
 
-.text p
+.text .textthree
 {
   
   text-align: center;
-  line-heigh:1.5;
+  line-height: 1.5;
   font-size: 18px;
+}
+
+.text .textone
+{
+  text-align: center;
+  line-height: 1.5;
+  font-size: 19px;
 }
 
 .hasan:hover .text
