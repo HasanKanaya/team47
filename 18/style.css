@@ -29,12 +29,12 @@ main
   height: 250px;
   transition: all 0.5s ease-in-out;
   background-color: #fff;
-  
   border-radius: 20px;
 }
 
 .card
 {
+  
   position: absolute;
   width: 220px;
   height: 220px;
@@ -53,7 +53,7 @@ main
 
 .hasan:hover
 {
-  height: 400px;
+  height: 450px;
 }
 
 .text
@@ -64,11 +64,6 @@ main
               opacity 0.7s ease-in-out;
 }
 
-.hasan:hover .text
-{
-  opacity: 1;
-  transform: translateY(-2px);
-}
 
 .text h2
 {
@@ -78,10 +73,16 @@ main
 
 .text p
 {
+  
   text-align: center;
   font-size: 18px;
 }
 
+.hasan:hover .text
+{
+  opacity: 1;
+  transform: translateY(-15px);
+}
 .card .image
 {
   
