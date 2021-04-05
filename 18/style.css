@@ -53,7 +53,7 @@ main
 
 .hasan:hover
 {
-  height: 450px;
+  height: 470px;
 }
 
 .text
@@ -75,6 +75,7 @@ main
 {
   
   text-align: center;
+  line-heigh:1.5;
   font-size: 18px;
 }
 
