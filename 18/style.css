@@ -1,0 +1,105 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  background-color: #16384c;
+}
+
+main
+{
+  display: flex;
+  
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.hasan
+{
+  position: relative;
+  margin-right:25px;
+  margin-left: 25px;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  width: 360px;
+  height: 300px;
+  transition: all 0.5s ease-in-out;
+  background-color: #fff;
+  
+  border-radius: 20px;
+}
+
+.card
+{
+  position: absolute;
+  width: 270px;
+  height: 270px;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,-30px);
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.image img
+{
+  border-radius: 20px;
+  width: 100%;
+}
+
+.hasan:hover
+{
+  height: 440px;
+}
+
+.text
+{
+  opacity: 0;
+  transform: translateY(-110px);
+  transition: transform 0.5s ease-in-out,
+              opacity 0.7s ease-in-out;
+}
+
+.hasan:hover .text
+{
+  opacity: 1;
+  transform: translateY(-5px);
+}
+
+.text h2
+{
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.text p
+{
+  text-align: center;
+  font-size: large;
+  line-height: 1.7;
+}
+
+.card .image
+{
+  
+  transition: all 0.5s ease-in-out;
+}
+
+.hasan:hover .card .image
+{
+  transform: translateY(-30px);
+}
+
+
+@media screen and (min-width:1242px)
+{
+  main
+  {
+    height: 85vh;
+  }
+}
