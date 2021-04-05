@@ -67,7 +67,7 @@ main
 .hasan:hover .text
 {
   opacity: 1;
-  transform: translateY(-5px);
+  transform: translateY(-2px);
 }
 
 .text h2
