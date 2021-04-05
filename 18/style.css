@@ -71,7 +71,7 @@ main
   text-align: center;
 }
 
-.text .textthree
+.textthree
 {
   
   text-align: center;
@@ -79,7 +79,7 @@ main
   font-size: 18px;
 }
 
-.text .textone
+.textone
 {
   text-align: center;
   line-height: 1.5;
@@ -125,6 +125,7 @@ main
 
   .text p
   {
+    text-align: center;
     font-size: large;
     line-height: 1.7;
   }
