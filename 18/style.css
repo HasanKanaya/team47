@@ -53,7 +53,7 @@ main
 
 .hasan:hover
 {
-  height: 410px;
+  height: 380px;
 }
 
 .text
@@ -79,8 +79,7 @@ main
 .text p
 {
   text-align: center;
-  font-size: 20px;
-  line-height: 1.4;
+  font-size: 18px;
 }
 
 .card .image
